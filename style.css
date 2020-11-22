@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px;
+}
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #666;
+}
+li a.active{
+    background-color: aquamarine;
+    color: black;
+}
